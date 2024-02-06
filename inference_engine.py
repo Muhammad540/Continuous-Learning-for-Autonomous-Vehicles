@@ -15,7 +15,7 @@ from PIL import Image
 import numpy as np
 from .CVAE import Convolution_Variational_Autoencoder # Import the model
 from .Datasetloader import SingleImageDataset # Import the custom dataset
-# Lets convert this code into a function
+
 # ----------------------- Inference -----------------------
 def inference(img):
     """
